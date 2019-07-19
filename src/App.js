@@ -17,12 +17,9 @@ const App = () => {
   const [value, setValue] = useState("");
   const [selection, setSelection] = useState(null);
 
-
-
   // fetchUrl is in this case a method that returns
   // a URL but can also be a plain string
-  const fetchUrl = ({ searchQuery }) =>
-    ``;
+  const fetchUrl = ({ searchQuery }) => `url_se_requete_ici${searchQuery}`;
 
   return (
     <ReactFetchAutocomplete
