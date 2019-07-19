@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
     "react": "^16.8.6",
+    "react-autosuggest": "^9.4.3",
     "react-dom": "^16.8.6",
+    "react-fetch-autocomplete": "^0.0.5",
     "react-scripts": "3.0.1"
   },
   "scripts": {
@@ -13,6 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "https://cors-anywhere.herokuapp.com/",
   "eslintConfig": {
     "extends": "react-app"
   },
